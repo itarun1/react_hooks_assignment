@@ -1,0 +1,47 @@
+{
+  "todos": [
+    {
+      "title": "task 1",
+      "description": "my task 1",
+      "subtasks": [
+        {
+          "id": "2a01a35e-bf63-43ed-b4e9-d5a22e80a9f4",
+          "subtaskTitle": "learn react",
+          "subtaskStatus": false
+        }
+      ],
+      "status": "Todo",
+      "tags": {
+        "official": true,
+        "personal": true,
+        "others": false
+      },
+      "date": "2022-04-02",
+      "id": 1
+    },
+    {
+      "title": "task 2",
+      "description": "my task 2",
+      "subtasks": [
+        {
+          "id": "2a01a35e-bf63-43ed-b4e9-d5a22e80a9f4",
+          "subtaskTitle": "learn react",
+          "subtaskStatus": false
+        },
+        {
+          "id": "a52fcb37-19c8-44d2-a892-785615f19618",
+          "subtaskTitle": "learn redux-thunk",
+          "subtaskStatus": false
+        }
+      ],
+      "status": "InProgress",
+      "tags": {
+        "official": true,
+        "personal": false,
+        "others": false
+      },
+      "date": "2022-04-06",
+      "id": 2
+    }
+  ]
+}
